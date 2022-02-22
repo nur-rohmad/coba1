@@ -10,3 +10,4 @@ while ($r = mysqli_fetch_assoc($result)) {
 }
 $data = "{mapel:" . json_encode($rows) . "}";
 echo $data;
+echo $data;
